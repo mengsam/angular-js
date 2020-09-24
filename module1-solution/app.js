@@ -17,14 +17,14 @@
             $scope.nameStringSplitLength = $scope.nameStringSplit.length;
             if ($scope.nameStringSplitLength > 3) {
                 $scope.messageOnClick = "Too much!"
-                $scope.txtColor = '#5F9EA0'
+                $scope.txtColor = '#52BE80'
             } else if ($scope.nameStringSplitLength > 0) {
                 if ($scope.name === "") {
                     $scope.messageOnClick = "Please enter data first!"
-                    $scope.txtColor = '#DC143C'
+                    $scope.txtColor = '#EC7063'
                 } else {
                     $scope.messageOnClick = "Enjoy!"
-                    $scope.txtColor = '#5F9EA0'
+                    $scope.txtColor = '#52BE80'
                 }
             }
             return $scope.messageOnClick 
